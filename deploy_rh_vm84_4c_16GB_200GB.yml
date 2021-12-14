@@ -1,3 +1,4 @@
+---
 - name: Create a Red Hat virtual machine on vcenter
   gather_facts: false
   tasks:
