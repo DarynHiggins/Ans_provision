@@ -1,6 +1,6 @@
 ---
 - name: Create a Red Hat virtual machine on vcenter
-  hosts: all
+  hosts: "{{ inventory_hostname }}"  #all
   gather_facts: false
   tasks:
   - name: Deploying virtual machine "{{ h_name }}"
