@@ -1,5 +1,6 @@
 ---
 - name: Create a Red Hat virtual machine on vcenter
+  hosts: all
   gather_facts: false
   tasks:
   - name: Deploying virtual machine "{{ h_name }}"
